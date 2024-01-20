@@ -38,6 +38,7 @@ public class RestTemplateConfig {
     }
     @Bean
     public ClientHttpRequestInterceptor loggingInterceptor() {
+
         return new LoggingInterceptor();
     }
 

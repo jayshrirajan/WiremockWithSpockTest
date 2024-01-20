@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8882bda-f1e8-478c-9ba1-264936a6b0ac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/config/RestTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/service/RestTemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/service/RestTemplateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/src/test/java/com/example/WireMockAndSpockTest/integration/WireMockTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/src/test/java/com/example/WireMockAndSpockTest/integration/WireMockTest.groovy" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2bAkS212GJwwAFjYI2YaxM3GR0g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/jayasri.rajan/Downloads/WireMockAndSpockTest",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\src\main\java\com\example\WireMock\exception" />
+      <recent name="C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\src\main\java\com\example\WireMock\model" />
+      <recent name="C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\src\main\java\com\example\WireMock\config" />
+      <recent name="C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\src\main" />
+      <recent name="C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\src\test\java\com\example\WireMockAndSpockTest" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.WireMock.service" />
+      <recent name="com.example.WireMockAndSpockTest.integration" />
+      <recent name="com.example.WireMock.controller" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8882bda-f1e8-478c-9ba1-264936a6b0ac" name="Changes" comment="" />
+      <created>1705665266367</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705665266367</updated>
+    </task>
+    <servers />
+  </component>
+</project>
