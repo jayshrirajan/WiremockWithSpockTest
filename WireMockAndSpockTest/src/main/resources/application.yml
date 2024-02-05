@@ -5,10 +5,7 @@ server:
   port: 8081
 
 
-wiremock:
-  baseUrl: http://localhost:8081/rest/
-
-
+#swagger
   springdoc:
   api-docs:
     enabled: true
@@ -21,11 +18,19 @@ wiremock:
 #logging:
 #  level:
 #    org.springframework.web.client.RestTemplate: DEBUG
+logging:
+  level:
+    root: INFO
+    com.example: DEBUG
+
 
 # application.yml
-rest-template:
-  connect-timeout: 5000
-  read-timeout: 5000
+connect-timeout: 5000
+read-timeout: 5000
+
+
+
+
 
 
 

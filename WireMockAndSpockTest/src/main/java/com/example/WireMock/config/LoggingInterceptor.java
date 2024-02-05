@@ -8,13 +8,16 @@ import org.springframework.http.client.ClientHttpRequestInterceptor;
 import org.springframework.http.client.ClientHttpResponse;
 import org.springframework.util.StreamUtils;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 
 
 
 public class LoggingInterceptor implements ClientHttpRequestInterceptor {
     private final Logger log = LoggerFactory.getLogger(this.getClass());
+
 
   @Override
    public ClientHttpResponse intercept(HttpRequest request, byte[] body, ClientHttpRequestExecution execution) throws IOException {
@@ -40,4 +43,5 @@ public class LoggingInterceptor implements ClientHttpRequestInterceptor {
 
 
 }
+
 

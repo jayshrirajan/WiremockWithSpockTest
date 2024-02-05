@@ -6,6 +6,8 @@ import com.example.WireMock.exception.ItemOutOfStockException;
 import com.example.WireMock.exception.UnableToReturnBalanceException;
 import com.example.WireMock.model.Item;
 import com.example.WireMock.model.VendItemRequest;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
@@ -19,7 +21,7 @@ import java.util.Map;
 public class RestTemplateController {
 
     @Autowired
-   public  RestTemplate restTemplate;
+    public  RestTemplate restTemplate;
 
     static final String VM_URL = "http://localhost:8080/vending-machine/";
 

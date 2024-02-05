@@ -4,8 +4,12 @@ package com.example.WireMock.config;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.client.BufferingClientHttpRequestFactory;
+import org.springframework.http.client.ClientHttpRequestFactory;
 import org.springframework.http.client.ClientHttpRequestInterceptor;
 import org.springframework.http.client.SimpleClientHttpRequestFactory;
+import org.springframework.web.client.ResourceAccessException;
+import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
@@ -14,10 +18,10 @@ import java.util.List;
 @Configuration
 public class RestTemplateConfig {
 
-    @Value("${rest-template.connect-timeout}")
+    @Value("${connect-timeout}")
     private int connectTimeout;
 
-    @Value("${rest-template.read-timeout}")
+    @Value("${read-timeout}")
     private int readTimeout;
 
     @Bean
@@ -32,10 +36,11 @@ public class RestTemplateConfig {
         List<ClientHttpRequestInterceptor> interceptors = new ArrayList<>();
         interceptors.add(new LoggingInterceptor());
         restTemplate.setInterceptors(interceptors);
-        return new RestTemplate();
-
+        return restTemplate;
 
     }
+
+
     @Bean
     public ClientHttpRequestInterceptor loggingInterceptor() {
 

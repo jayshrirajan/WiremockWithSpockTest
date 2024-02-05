@@ -1,4 +1,4 @@
-package com.example.WireMock.service;
+package com.example.WireMockAndSpockTest.service;
 
 import com.example.WireMock.model.Item;
 import com.example.WireMock.model.VendItemRequest;
@@ -15,7 +15,7 @@ import java.util.Map;
 @Service
 public class RestTemplateService {
     private final RestTemplate restTemplate;
-    @Value("${wiremock.baseUrl}")
+    @Value("${baseUrl}")
     private final String baseUrl;
     public RestTemplateService(RestTemplate restTemplate, String baseUrl) {
             this.restTemplate = restTemplate;

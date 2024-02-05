@@ -2,7 +2,7 @@ package com.example.WireMockAndSpockTest.integration
 
 import com.example.WireMock.model.Item
 import com.example.WireMock.model.VendItemRequest
-import com.example.WireMock.service.RestTemplateService
+import com.example.WireMockAndSpockTest.service.RestTemplateService
 import com.github.tomakehurst.wiremock.junit.WireMockRule
 import org.junit.Rule
 import org.springframework.boot.test.context.SpringBootTest
@@ -14,7 +14,7 @@ import org.springframework.http.ResponseEntity
 import org.springframework.web.client.RestTemplate
 import org.springframework.http.HttpHeaders
 import org.springframework.http.MediaType
-import org.springframework.http.HttpStatus
+
 import static org.junit.Assert.assertEquals
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration;
 
@@ -36,10 +36,9 @@ class WireMockTest extends Specification {
         wireMockRule.start()
         this.restTemplate = new RestTemplate()
         int wireMockPort = wireMockRule.port()
-        // Construct the base URL dynamically
         String baseUrl = "http://localhost:" + wireMockPort + "/rest"
         this.restTemplateService = new RestTemplateService(restTemplate, baseUrl)
-        //this.restTemplateService = new RestTemplateService(restTemplate, "http://localhost:8081/rest/")
+
 
     }
 
@@ -50,12 +49,10 @@ class WireMockTest extends Specification {
     def "testGetTotalItems"() {
         // Set up WireMock stub
         given:
-        this.wireMockRule.stubFor(get(urlEqualTo("/rest/totalItem"))
+        wireMockRule.stubFor(get(urlEqualTo("/rest/totalItem"))
                 .willReturn(aResponse()
                         .withHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
                         .withBody("4")))
-
-        // Send HTTP request to WireMock server via YourService
         when:
         ResponseEntity<String> responseEntity = restTemplateService.getTotalItems()
 
@@ -67,7 +64,7 @@ class WireMockTest extends Specification {
     def "testGetItem"() {
 
         given:
-        this.wireMockRule.stubFor(get(urlEqualTo("/rest/getItem"))
+        wireMockRule.stubFor(get(urlEqualTo("/rest/getItem"))
                 .willReturn(aResponse()
                         .withHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
                         .withBody("{\"item\": \"chips\"}")))
@@ -109,6 +106,7 @@ class WireMockTest extends Specification {
 
         then:
         assertEquals("{\"status\": \"success\"}", responseEntity.getBody())
+
     }
 
     def "testVendItem"() {
@@ -141,7 +139,7 @@ class WireMockTest extends Specification {
         ResponseEntity<String> responseEntity
 
         then:
-        // Use a try-catch block to handle the exception
+
         try {
             responseEntity = restTemplateService.vendItems(vendItemRequests)
         } catch (HttpClientErrorException.BadRequest e) {
@@ -168,9 +166,14 @@ class WireMockTest extends Specification {
             responseEntity = restTemplateService.vendItems(vendItemRequests)
         } catch (HttpClientErrorException.NotFound e) {
             e.responseBodyAsString == "{\"error\": \"Item not found\"}"
+
         }
 
     }
+
+
+
+
 }
 
 
