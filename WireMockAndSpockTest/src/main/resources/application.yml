@@ -15,20 +15,18 @@ server:
     enabled: true
 
 #logging
-#logging:
-#  level:
-#    org.springframework.web.client.RestTemplate: DEBUG
 logging:
   level:
-    root: INFO
-    com.example: DEBUG
+    org.springframework.web.client.RestTemplate: DEBUG
+  file:
+      path: logs/
+      name: logs/application.log
+
 
 
 # application.yml
 connect-timeout: 5000
 read-timeout: 5000
-
-
 
 
 

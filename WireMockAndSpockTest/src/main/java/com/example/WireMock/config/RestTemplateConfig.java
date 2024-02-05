@@ -25,26 +25,17 @@ public class RestTemplateConfig {
     private int readTimeout;
 
     @Bean
-    public RestTemplate restTemplate() {
-        RestTemplate restTemplate = new RestTemplate();
+    public RestTemplate restTemplate(){
         // Set connection timeout and read timeout from properties
         SimpleClientHttpRequestFactory requestFactory = new SimpleClientHttpRequestFactory();
         requestFactory.setConnectTimeout(connectTimeout);
         requestFactory.setReadTimeout(readTimeout);
-        restTemplate.setRequestFactory(requestFactory);
-
-        List<ClientHttpRequestInterceptor> interceptors = new ArrayList<>();
-        interceptors.add(new LoggingInterceptor());
-        restTemplate.setInterceptors(interceptors);
-        return restTemplate;
-
+        return  new RestTemplate();
     }
-
-
     @Bean
-    public ClientHttpRequestInterceptor loggingInterceptor() {
-
+    public ClientHttpRequestInterceptor LoggingInterceptor(){
         return new LoggingInterceptor();
     }
 
 }
+

@@ -7,20 +7,13 @@
     <list default="true" id="a8882bda-f1e8-478c-9ba1-264936a6b0ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/WireMockAndSpockTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/WireMockAndSpockTestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/config/LoggingInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/config/LoggingInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/config/RestTemplateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/controller/RestTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/controller/RestTemplateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/service/RestTemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/src/test/java/com/example/WireMockAndSpockTest/service/RestTemplateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/controller/LogController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/src/test/java/com/example/WireMockAndSpockTest/integration/WireMockTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/src/test/java/com/example/WireMockAndSpockTest/integration/WireMockTest.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/classpath.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/com/example/WireMock/WireMockAndSpockTestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/com/example/WireMock/WireMockAndSpockTestApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/com/example/WireMock/config/LoggingInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/com/example/WireMock/config/LoggingInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/com/example/WireMock/config/RestTemplateConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/com/example/WireMock/config/RestTemplateConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/com/example/WireMock/controller/RestTemplateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/com/example/WireMock/controller/RestTemplateController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/com/example/WireMock/service/RestTemplateService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/target/test-classes/com/example/WireMockAndSpockTest/integration/WireMockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/target/test-classes/com/example/WireMockAndSpockTest/integration/WireMockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/com/example/WireMock/controller/LogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/com/example/WireMock/controller/LogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/myapplication.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,16 +41,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_directory_selection": "C:/Users/jayasri.rajan/Downloads/WireMockAndSpockTest/WireMockAndSpockTest/src/test/java",
-    "last_opened_file_path": "C:/Users/jayasri.rajan/Downloads/WireMockAndSpockTest",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/jayasri.rajan/Downloads/WireMockAndSpockTest/WireMockAndSpockTest/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jayasri.rajan/Downloads/WireMockAndSpockTest&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\src\test" />

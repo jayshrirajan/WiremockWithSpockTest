@@ -10,13 +10,12 @@ public class LogController {
     private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
     @RequestMapping("/")
-    public String home() {
-
+    public String index() {
         LOGGER.debug("This is a debug message");
         LOGGER.info("This is an info message");
         LOGGER.warn("This is a warn message");
         LOGGER.error("This is an error message");
 
-        return "index";
+        return "";
     }
 }
