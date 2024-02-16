@@ -30,12 +30,15 @@ public class RestTemplateConfig {
         SimpleClientHttpRequestFactory requestFactory = new SimpleClientHttpRequestFactory();
         requestFactory.setConnectTimeout(connectTimeout);
         requestFactory.setReadTimeout(readTimeout);
-        return  new RestTemplate();
+        return new RestTemplate();
     }
+
     @Bean
     public ClientHttpRequestInterceptor LoggingInterceptor(){
         return new LoggingInterceptor();
     }
+
+
 
 }
 

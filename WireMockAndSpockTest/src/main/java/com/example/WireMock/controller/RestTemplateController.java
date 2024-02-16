@@ -1,11 +1,9 @@
 package com.example.WireMock.controller;
 
-import com.example.WireMock.exception.InsufficientBalanceException;
-import com.example.WireMock.exception.ItemNotFoundException;
-import com.example.WireMock.exception.ItemOutOfStockException;
-import com.example.WireMock.exception.UnableToReturnBalanceException;
+import com.example.WireMock.exception.*;
 import com.example.WireMock.model.Item;
 import com.example.WireMock.model.VendItemRequest;
+import org.slf4j.ILoggerFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,9 +19,9 @@ import java.util.Map;
 public class RestTemplateController {
 
     @Autowired
-    public  RestTemplate restTemplate;
-
+    public RestTemplate restTemplate;
     static final String VM_URL = "http://localhost:8080/vending-machine/";
+
 
     @GetMapping("rest/totalItem")
     public String getTotalItems()

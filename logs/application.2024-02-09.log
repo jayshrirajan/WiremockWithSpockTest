@@ -1,0 +1,300 @@
+2024-02-09 10:53:20.614  INFO 1948 --- [main] c.e.W.WireMockAndSpockTestApplication    : Starting WireMockAndSpockTestApplication using Java 17.0.9 on CHE-JRAJAN-LT with PID 1948 (C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\target\classes started by Jayasri.Rajan in C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest)
+2024-02-09 10:53:20.624  INFO 1948 --- [main] c.e.W.WireMockAndSpockTestApplication    : No active profile set, falling back to default profiles: default
+2024-02-09 10:53:21.817  INFO 1948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-02-09 10:53:21.827  INFO 1948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09 10:53:21.827  INFO 1948 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-02-09 10:53:21.947  INFO 1948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-09 10:53:21.947  INFO 1948 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1230 ms
+2024-02-09 10:53:22.987  INFO 1948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-02-09 10:53:22.996  INFO 1948 --- [main] c.e.W.WireMockAndSpockTestApplication    : Started WireMockAndSpockTestApplication in 2.878 seconds (JVM running for 3.33)
+2024-02-09 10:53:22.997  INFO 1948 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2024-02-09 10:53:22.999  INFO 1948 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-02-09 10:53:22.999  INFO 1948 --- [main] c.e.WireMock.controller.LogController    : An INFO Message
+2024-02-09 10:53:22.999  WARN 1948 --- [main] c.e.WireMock.controller.LogController    : A WARN Message
+2024-02-09 10:53:22.999 ERROR 1948 --- [main] c.e.WireMock.controller.LogController    : An ERROR Message
+2024-02-09 10:53:30.911  INFO 1948 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-09 10:53:30.912  INFO 1948 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-09 10:53:30.913  INFO 1948 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-09 10:53:31.478  INFO 1948 --- [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 294 ms
+2024-02-09 10:54:42.565 DEBUG 1948 --- [http-nio-8081-exec-7] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8080/vending-machine/get-item
+2024-02-09 10:54:42.569 DEBUG 1948 --- [http-nio-8081-exec-7] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-09 10:54:42.761 DEBUG 1948 --- [http-nio-8081-exec-7] o.s.web.client.RestTemplate              : Response 200 OK
+2024-02-09 10:54:42.762 DEBUG 1948 --- [http-nio-8081-exec-7] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+2024-02-09 10:58:39.173  INFO 22180 --- [main] c.e.W.WireMockAndSpockTestApplication    : Starting WireMockAndSpockTestApplication using Java 17.0.9 on CHE-JRAJAN-LT with PID 22180 (C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\target\classes started by Jayasri.Rajan in C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest)
+2024-02-09 10:58:39.176  INFO 22180 --- [main] c.e.W.WireMockAndSpockTestApplication    : No active profile set, falling back to default profiles: default
+2024-02-09 10:58:40.381  INFO 22180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-02-09 10:58:40.391  INFO 22180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09 10:58:40.392  INFO 22180 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-02-09 10:58:40.475  INFO 22180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-09 10:58:40.476  INFO 22180 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1230 ms
+2024-02-09 10:58:41.464  INFO 22180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-02-09 10:58:41.474  INFO 22180 --- [main] c.e.W.WireMockAndSpockTestApplication    : Started WireMockAndSpockTestApplication in 2.798 seconds (JVM running for 3.218)
+2024-02-09 10:58:41.476  INFO 22180 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2024-02-09 10:58:41.478  INFO 22180 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-02-09 10:58:41.479  INFO 22180 --- [main] c.e.WireMock.controller.LogController    : An INFO Message
+2024-02-09 10:58:41.479  WARN 22180 --- [main] c.e.WireMock.controller.LogController    : A WARN Message
+2024-02-09 10:58:41.479 ERROR 22180 --- [main] c.e.WireMock.controller.LogController    : An ERROR Message
+2024-02-09 10:58:47.841  INFO 22180 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-09 10:58:47.841  INFO 22180 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-09 10:58:47.842  INFO 22180 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-09 11:06:04.174  INFO 18556 --- [main] c.e.W.WireMockAndSpockTestApplication    : Starting WireMockAndSpockTestApplication using Java 17.0.9 on CHE-JRAJAN-LT with PID 18556 (C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\target\classes started by Jayasri.Rajan in C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest)
+2024-02-09 11:06:04.177  INFO 18556 --- [main] c.e.W.WireMockAndSpockTestApplication    : No active profile set, falling back to default profiles: default
+2024-02-09 11:06:05.571  INFO 18556 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-02-09 11:06:05.583  INFO 18556 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09 11:06:05.584  INFO 18556 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-02-09 11:06:05.681  INFO 18556 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-09 11:06:05.681  INFO 18556 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1428 ms
+2024-02-09 11:06:06.577  INFO 18556 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-02-09 11:06:06.589  INFO 18556 --- [main] c.e.W.WireMockAndSpockTestApplication    : Started WireMockAndSpockTestApplication in 3.004 seconds (JVM running for 3.514)
+2024-02-09 11:06:06.590  INFO 18556 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2024-02-09 11:06:06.592  INFO 18556 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-02-09 11:06:06.593  INFO 18556 --- [main] c.e.WireMock.controller.LogController    : An INFO Message
+2024-02-09 11:06:06.593  WARN 18556 --- [main] c.e.WireMock.controller.LogController    : A WARN Message
+2024-02-09 11:06:06.593 ERROR 18556 --- [main] c.e.WireMock.controller.LogController    : An ERROR Message
+2024-02-09 11:11:50.565  INFO 22940 --- [main] c.e.W.WireMockAndSpockTestApplication    : Starting WireMockAndSpockTestApplication using Java 17.0.9 on CHE-JRAJAN-LT with PID 22940 (C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\target\classes started by Jayasri.Rajan in C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest)
+2024-02-09 11:11:50.568  INFO 22940 --- [main] c.e.W.WireMockAndSpockTestApplication    : No active profile set, falling back to default profiles: default
+2024-02-09 11:11:51.582  INFO 22940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-02-09 11:11:51.590  INFO 22940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09 11:11:51.590  INFO 22940 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-02-09 11:11:51.665  INFO 22940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-09 11:11:51.666  INFO 22940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1034 ms
+2024-02-09 11:11:52.475  INFO 22940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-02-09 11:11:52.482  INFO 22940 --- [main] c.e.W.WireMockAndSpockTestApplication    : Started WireMockAndSpockTestApplication in 2.352 seconds (JVM running for 2.699)
+2024-02-09 11:11:52.483  INFO 22940 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2024-02-09 11:11:52.485  INFO 22940 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-02-09 11:11:52.485  INFO 22940 --- [main] c.e.WireMock.controller.LogController    : An INFO Message
+2024-02-09 11:11:52.486  WARN 22940 --- [main] c.e.WireMock.controller.LogController    : A WARN Message
+2024-02-09 11:11:52.486 ERROR 22940 --- [main] c.e.WireMock.controller.LogController    : An ERROR Message
+2024-02-09 11:12:15.593  INFO 23848 --- [main] c.e.W.WireMockAndSpockTestApplication    : Starting WireMockAndSpockTestApplication using Java 17.0.9 on CHE-JRAJAN-LT with PID 23848 (C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\target\classes started by Jayasri.Rajan in C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest)
+2024-02-09 11:12:15.596  INFO 23848 --- [main] c.e.W.WireMockAndSpockTestApplication    : No active profile set, falling back to default profiles: default
+2024-02-09 11:12:16.928  INFO 23848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-02-09 11:12:16.939  INFO 23848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09 11:12:16.940  INFO 23848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-02-09 11:12:17.019  INFO 23848 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-09 11:12:17.019  INFO 23848 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1352 ms
+2024-02-09 11:12:18.046  INFO 23848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-02-09 11:12:18.059  INFO 23848 --- [main] c.e.W.WireMockAndSpockTestApplication    : Started WireMockAndSpockTestApplication in 2.972 seconds (JVM running for 3.453)
+2024-02-09 11:12:18.060  INFO 23848 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2024-02-09 11:12:18.063  INFO 23848 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-02-09 11:12:18.064  INFO 23848 --- [main] c.e.WireMock.controller.LogController    : An INFO Message
+2024-02-09 11:12:18.065  WARN 23848 --- [main] c.e.WireMock.controller.LogController    : A WARN Message
+2024-02-09 11:12:18.065 ERROR 23848 --- [main] c.e.WireMock.controller.LogController    : An ERROR Message
+2024-02-09 11:12:43.159  INFO 24196 --- [main] c.e.W.WireMockAndSpockTestApplication    : Starting WireMockAndSpockTestApplication using Java 17.0.9 on CHE-JRAJAN-LT with PID 24196 (C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\target\classes started by Jayasri.Rajan in C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest)
+2024-02-09 11:12:43.162  INFO 24196 --- [main] c.e.W.WireMockAndSpockTestApplication    : No active profile set, falling back to default profiles: default
+2024-02-09 11:12:44.192  INFO 24196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-02-09 11:12:44.203  INFO 24196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09 11:12:44.204  INFO 24196 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-02-09 11:12:44.272  INFO 24196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-09 11:12:44.273  INFO 24196 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1042 ms
+2024-02-09 11:12:45.110  INFO 24196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-02-09 11:12:45.119  INFO 24196 --- [main] c.e.W.WireMockAndSpockTestApplication    : Started WireMockAndSpockTestApplication in 2.421 seconds (JVM running for 2.797)
+2024-02-09 11:12:45.121  INFO 24196 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2024-02-09 11:12:45.122  INFO 24196 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-02-09 11:12:45.123  INFO 24196 --- [main] c.e.WireMock.controller.LogController    : An INFO Message
+2024-02-09 11:12:45.123  WARN 24196 --- [main] c.e.WireMock.controller.LogController    : A WARN Message
+2024-02-09 11:12:45.123 ERROR 24196 --- [main] c.e.WireMock.controller.LogController    : An ERROR Message
+2024-02-09 11:14:51.106  INFO 11008 --- [main] c.e.W.WireMockAndSpockTestApplication    : Starting WireMockAndSpockTestApplication using Java 17.0.9 on CHE-JRAJAN-LT with PID 11008 (C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\target\classes started by Jayasri.Rajan in C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest)
+2024-02-09 11:14:51.109  INFO 11008 --- [main] c.e.W.WireMockAndSpockTestApplication    : No active profile set, falling back to default profiles: default
+2024-02-09 11:14:52.188  INFO 11008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-02-09 11:14:52.196  INFO 11008 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09 11:14:52.197  INFO 11008 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-02-09 11:14:52.265  INFO 11008 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-09 11:14:52.266  INFO 11008 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1095 ms
+2024-02-09 11:14:53.208  INFO 11008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-02-09 11:14:53.219  INFO 11008 --- [main] c.e.W.WireMockAndSpockTestApplication    : Started WireMockAndSpockTestApplication in 2.52 seconds (JVM running for 2.863)
+2024-02-09 11:14:53.220  INFO 11008 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2024-02-09 11:14:53.223  INFO 11008 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-02-09 11:14:53.225  INFO 11008 --- [main] c.e.WireMock.controller.LogController    : An INFO Message
+2024-02-09 11:14:53.225  WARN 11008 --- [main] c.e.WireMock.controller.LogController    : A WARN Message
+2024-02-09 11:14:53.225 ERROR 11008 --- [main] c.e.WireMock.controller.LogController    : An ERROR Message
+2024-02-09 11:36:51.016  INFO 11008 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-09 11:36:51.017  INFO 11008 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-09 11:36:51.021  INFO 11008 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-02-09 11:40:35.099  INFO 10460 --- [main] c.e.W.WireMockAndSpockTestApplication    : Starting WireMockAndSpockTestApplication using Java 17.0.9 on CHE-JRAJAN-LT with PID 10460 (C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\target\classes started by Jayasri.Rajan in C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest)
+2024-02-09 11:40:35.101  INFO 10460 --- [main] c.e.W.WireMockAndSpockTestApplication    : No active profile set, falling back to default profiles: default
+2024-02-09 11:40:36.858  INFO 10460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-02-09 11:40:36.925  INFO 10460 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09 11:40:36.926  INFO 10460 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-02-09 11:40:37.021  INFO 10460 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-09 11:40:37.021  INFO 10460 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1843 ms
+2024-02-09 11:41:06.311  INFO 1816 --- [main] c.e.W.WireMockAndSpockTestApplication    : Starting WireMockAndSpockTestApplication using Java 17.0.9 on CHE-JRAJAN-LT with PID 1816 (C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\target\classes started by Jayasri.Rajan in C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest)
+2024-02-09 11:41:06.314  INFO 1816 --- [main] c.e.W.WireMockAndSpockTestApplication    : No active profile set, falling back to default profiles: default
+2024-02-09 11:41:07.841  INFO 1816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-02-09 11:41:07.859  INFO 1816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09 11:41:07.860  INFO 1816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-02-09 11:41:07.958  INFO 1816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-09 11:41:07.958  INFO 1816 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1561 ms
+2024-02-09 12:28:53.205  INFO 21124 --- [main] c.e.W.WireMockAndSpockTestApplication    : Starting WireMockAndSpockTestApplication using Java 17.0.9 on CHE-JRAJAN-LT with PID 21124 (C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\target\classes started by Jayasri.Rajan in C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest)
+2024-02-09 12:28:53.209  INFO 21124 --- [main] c.e.W.WireMockAndSpockTestApplication    : No active profile set, falling back to default profiles: default
+2024-02-09 12:28:54.827  INFO 21124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-02-09 12:28:54.839  INFO 21124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09 12:28:54.840  INFO 21124 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-02-09 12:28:54.927  INFO 21124 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-09 12:28:54.927  INFO 21124 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1617 ms
+2024-02-09 13:02:58.692 [main] INFO  c.e.W.WireMockAndSpockTestApplication - Starting WireMockAndSpockTestApplication using Java 17.0.9 on CHE-JRAJAN-LT with PID 14672 (C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\target\classes started by Jayasri.Rajan in C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest)
+2024-02-09 13:02:58.696 [main] INFO  c.e.W.WireMockAndSpockTestApplication - No active profile set, falling back to default profiles: default
+2024-02-09 13:03:00.588 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-02-09 13:03:00.610 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-02-09 13:03:00.610 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-09 13:03:00.611 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-02-09 13:03:00.757 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-09 13:03:00.757 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1947 ms
+2024-02-09 13:03:02.297 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-02-09 13:03:02.389 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-02-09 13:03:02.404 [main] INFO  c.e.W.WireMockAndSpockTestApplication - Started WireMockAndSpockTestApplication in 4.497 seconds (JVM running for 5.446)
+2024-02-09 13:03:02.406 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2024-02-09 13:03:02.408 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-02-09 13:03:02.410 [main] DEBUG c.e.W.controller.LogController - A DEBUG Message
+2024-02-09 13:03:02.410 [main] INFO  c.e.W.controller.LogController - An INFO Message
+2024-02-09 13:03:02.410 [main] WARN  c.e.W.controller.LogController - A WARN Message
+2024-02-09 13:03:02.411 [main] ERROR c.e.W.controller.LogController - An ERROR Message
+2024-02-09 13:03:49.182 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-09 13:03:49.183 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-09 13:03:49.185 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-02-09 13:03:50.225 [http-nio-8081-exec-3] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 642 ms
+2024-02-09 13:04:36.915 [http-nio-8081-exec-4] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8080/vending-machine/get-item
+2024-02-09 13:04:36.918 [http-nio-8081-exec-4] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-09 13:04:37.245 [http-nio-8081-exec-4] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-09 13:04:37.247 [http-nio-8081-exec-4] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+2024-02-09 13:05:58.076 [http-nio-8081-exec-7] DEBUG o.s.web.client.RestTemplate - HTTP POST http://localhost:8080/vending-machine/add-change
+2024-02-09 13:05:58.077 [http-nio-8081-exec-7] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-09 13:05:58.080 [http-nio-8081-exec-7] DEBUG o.s.web.client.RestTemplate - Writing [{1.0=0}] as "application/json"
+2024-02-09 13:05:58.096 [http-nio-8081-exec-7] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-09 13:05:58.096 [http-nio-8081-exec-7] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+2024-02-09 13:06:05.570 [http-nio-8081-exec-8] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8080/vending-machine/total-items
+2024-02-09 13:06:05.572 [http-nio-8081-exec-8] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-09 13:06:05.592 [http-nio-8081-exec-8] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-09 13:06:05.594 [http-nio-8081-exec-8] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+2024-02-09 13:08:59.152 [main] INFO  c.e.W.WireMockAndSpockTestApplication - Starting WireMockAndSpockTestApplication using Java 17.0.9 on CHE-JRAJAN-LT with PID 11336 (C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\target\classes started by Jayasri.Rajan in C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest)
+2024-02-09 13:08:59.156 [main] INFO  c.e.W.WireMockAndSpockTestApplication - No active profile set, falling back to default profiles: default
+2024-02-09 13:09:00.682 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-02-09 13:09:00.696 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-02-09 13:09:00.697 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-09 13:09:00.697 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-02-09 13:09:00.802 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-09 13:09:00.803 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1552 ms
+2024-02-09 13:09:01.935 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-02-09 13:09:02.011 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-02-09 13:09:02.026 [main] INFO  c.e.W.WireMockAndSpockTestApplication - Started WireMockAndSpockTestApplication in 3.381 seconds (JVM running for 4.101)
+2024-02-09 13:09:02.029 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2024-02-09 13:09:02.033 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-02-09 13:09:02.034 [main] INFO  c.e.W.controller.LogController - An INFO Message
+2024-02-09 13:09:02.035 [main] WARN  c.e.W.controller.LogController - A WARN Message
+2024-02-09 13:09:02.035 [main] ERROR c.e.W.controller.LogController - An ERROR Message
+2024-02-09 13:09:08.446 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-09 13:09:08.447 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-09 13:09:08.448 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-09 13:09:08.503 [http-nio-8081-exec-1] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8080/vending-machine/get-item
+2024-02-09 13:09:08.505 [http-nio-8081-exec-1] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-09 13:09:08.527 [http-nio-8081-exec-1] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-09 13:09:08.529 [http-nio-8081-exec-1] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+2024-02-09 13:09:15.137 [http-nio-8081-exec-2] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8080/vending-machine/total-items
+2024-02-09 13:09:15.138 [http-nio-8081-exec-2] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-09 13:09:15.166 [http-nio-8081-exec-2] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-09 13:09:15.167 [http-nio-8081-exec-2] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+2024-02-09 13:13:10.957 [main] INFO  c.e.W.WireMockAndSpockTestApplication - Starting WireMockAndSpockTestApplication using Java 17.0.9 on CHE-JRAJAN-LT with PID 8760 (C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\target\classes started by Jayasri.Rajan in C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest)
+2024-02-09 13:13:10.962 [main] INFO  c.e.W.WireMockAndSpockTestApplication - No active profile set, falling back to default profiles: default
+2024-02-09 13:13:12.737 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-02-09 13:13:12.758 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-02-09 13:13:12.759 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-09 13:13:12.760 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-02-09 13:13:12.881 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-09 13:13:12.881 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1812 ms
+2024-02-09 13:13:13.977 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-02-09 13:13:14.066 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-02-09 13:13:14.081 [main] INFO  c.e.W.WireMockAndSpockTestApplication - Started WireMockAndSpockTestApplication in 3.69 seconds (JVM running for 4.382)
+2024-02-09 13:13:14.084 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2024-02-09 13:13:14.087 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-02-09 13:13:14.088 [main] INFO  c.e.W.controller.LogController - An INFO Message
+2024-02-09 13:13:14.089 [main] WARN  c.e.W.controller.LogController - A WARN Message
+2024-02-09 13:13:14.089 [main] ERROR c.e.W.controller.LogController - An ERROR Message
+2024-02-09 13:13:33.243 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-09 13:13:33.244 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-09 13:13:33.245 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-09 13:13:33.294 [http-nio-8081-exec-1] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8080/vending-machine/get-item
+2024-02-09 13:13:33.297 [http-nio-8081-exec-1] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-09 13:13:33.321 [http-nio-8081-exec-1] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-09 13:13:33.321 [http-nio-8081-exec-1] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+2024-02-09 13:18:16.716 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [Console]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:373)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:331)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.example.WireMock.WireMockAndSpockTestApplication.main(WireMockAndSpockTestApplication.java:20)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [Console]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
+2024-02-09 13:18:55.305 [main] INFO  c.e.W.WireMockAndSpockTestApplication - Starting WireMockAndSpockTestApplication using Java 17.0.9 on CHE-JRAJAN-LT with PID 19180 (C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\target\classes started by Jayasri.Rajan in C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest)
+2024-02-09 13:18:55.307 [main] INFO  c.e.W.WireMockAndSpockTestApplication - No active profile set, falling back to default profiles: default
+2024-02-09 13:18:56.779 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-02-09 13:18:56.791 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-02-09 13:18:56.792 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-09 13:18:56.793 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-02-09 13:18:56.894 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-09 13:18:56.895 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1499 ms
+2024-02-09 13:18:57.929 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-02-09 13:18:57.996 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-02-09 13:18:58.008 [main] INFO  c.e.W.WireMockAndSpockTestApplication - Started WireMockAndSpockTestApplication in 3.203 seconds (JVM running for 3.81)
+2024-02-09 13:18:58.009 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2024-02-09 13:18:58.011 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-02-09 13:18:58.012 [main] INFO  c.e.W.controller.LogController - An INFO Message
+2024-02-09 13:18:58.013 [main] WARN  c.e.W.controller.LogController - A WARN Message
+2024-02-09 13:18:58.013 [main] ERROR c.e.W.controller.LogController - An ERROR Message
+2024-02-09 13:19:10.240 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-09 13:19:10.241 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-09 13:19:10.243 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-02-09 13:19:10.330 [http-nio-8081-exec-1] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8080/vending-machine/get-item
+2024-02-09 13:19:10.335 [http-nio-8081-exec-1] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-09 13:19:10.372 [http-nio-8081-exec-1] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-09 13:19:10.374 [http-nio-8081-exec-1] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+2024-02-09 15:22:19.299 [main] INFO  c.e.W.WireMockAndSpockTestApplication - Starting WireMockAndSpockTestApplication using Java 17.0.9 on CHE-JRAJAN-LT with PID 12192 (C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\target\classes started by Jayasri.Rajan in C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest)
+2024-02-09 15:22:19.303 [main] INFO  c.e.W.WireMockAndSpockTestApplication - No active profile set, falling back to default profiles: default
+2024-02-09 15:22:20.744 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-02-09 15:22:20.759 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-02-09 15:22:20.761 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-09 15:22:20.762 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-02-09 15:22:20.875 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-09 15:22:20.875 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1491 ms
+2024-02-09 15:22:21.910 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-02-09 15:22:21.978 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-02-09 15:22:21.989 [main] INFO  c.e.W.WireMockAndSpockTestApplication - Started WireMockAndSpockTestApplication in 3.168 seconds (JVM running for 3.882)
+2024-02-09 15:22:21.991 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2024-02-09 15:22:21.994 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-02-09 15:22:21.995 [main] INFO  c.e.W.controller.LogController - An INFO Message
+2024-02-09 15:22:21.995 [main] WARN  c.e.W.controller.LogController - A WARN Message
+2024-02-09 15:22:21.995 [main] ERROR c.e.W.controller.LogController - An ERROR Message
+2024-02-09 15:22:26.275 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-09 15:22:26.276 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-09 15:22:26.278 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-02-09 15:22:46.596 [http-nio-8081-exec-3] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8080/vending-machine/total-items
+2024-02-09 15:22:46.598 [http-nio-8081-exec-3] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-09 15:22:46.654 [http-nio-8081-exec-3] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-09 15:22:46.655 [http-nio-8081-exec-3] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+2024-02-09 15:22:54.927 [http-nio-8081-exec-4] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8080/vending-machine/get-item
+2024-02-09 15:22:54.928 [http-nio-8081-exec-4] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-09 15:22:54.941 [http-nio-8081-exec-4] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-09 15:22:54.942 [http-nio-8081-exec-4] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"

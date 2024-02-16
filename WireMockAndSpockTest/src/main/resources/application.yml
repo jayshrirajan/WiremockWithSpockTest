@@ -15,18 +15,30 @@ server:
     enabled: true
 
 #logging
-logging:
-  level:
-    org.springframework.web.client.RestTemplate: DEBUG
-  file:
-      path: logs/
-      name: logs/application.log
+#logging:
+#  level:
+#    root: INFO
+##    root: DEBUG
+#    org.springframework.web.client.RestTemplate: DEBUG
+#
+#  file:
+#      path: logs/
+#      name: logs/application.log
 
 
 
 # application.yml
 connect-timeout: 5000
 read-timeout: 5000
+
+# config file
+item:
+  id: 1001
+  code: B
+  name: Chocolates
+  quantity: 5
+  cost: 5.0
+
 
 
 

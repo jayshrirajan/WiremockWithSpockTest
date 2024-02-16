@@ -1,11 +1,11 @@
 package com.example.WireMock.exception;
 
+
 public class Error {
     private final String error;
 
 
     public Error(String error) {
-
         this.error = error;
     }
 
@@ -14,4 +14,6 @@ public class Error {
 
         return error;
     }
+
+
 }
