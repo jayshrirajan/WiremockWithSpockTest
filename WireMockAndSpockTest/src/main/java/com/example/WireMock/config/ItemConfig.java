@@ -1,11 +1,13 @@
-package com.example.WireMock.model;
+package com.example.WireMock.config;
 
-
+import com.example.WireMock.model.Item;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-
-public class Item {
+@Configuration
+@ConfigurationProperties(prefix = "item")
+public class ItemConfig {
 
     private int idItem;
     private String itemCode;
@@ -13,17 +15,7 @@ public class Item {
     private int quantity;
     private double itemCost;
 
-
-    public Item(int idItem, String itemCode, String itemName, int quantity, double itemCost) {
-        this.idItem = idItem;
-        this.itemCode = itemCode;
-        this.itemName = itemName;
-        this.quantity = quantity;
-        this.itemCost = itemCost;
-    }
-
     public int getIdItem() {
-
         return idItem;
     }
 
@@ -32,53 +24,41 @@ public class Item {
     }
 
     public String getItemCode() {
-
         return itemCode;
     }
 
     public void setItemCode(String itemCode) {
-
         this.itemCode = itemCode;
     }
 
     public String getItemName() {
-
         return itemName;
     }
 
     public void setItemName(String itemName) {
-
         this.itemName = itemName;
     }
 
     public int getQuantity() {
-
         return quantity;
     }
 
     public void setQuantity(int quantity) {
-
         this.quantity = quantity;
     }
 
     public double getItemCost() {
-
         return itemCost;
     }
 
     public void setItemCost(double itemCost) {
-
         this.itemCost = itemCost;
     }
-    @Override
-    public String toString() {
-        return "Item{" +
-                "idItem=" + idItem +
-                ", itemCode='" + itemCode + '\'' +
-                ", itemName='" + itemName + '\'' +
-                ", quantity=" + quantity +
-                ", itemCost=" + itemCost +
-                '}';
+
+    @Bean
+    public Item getItem(){
+        return new Item(idItem,itemCode,itemName,quantity,itemCost);
     }
+
 
 }

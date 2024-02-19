@@ -33,13 +33,11 @@ read-timeout: 5000
 
 # config file
 item:
-  id: 1001
-  code: B
-  name: Chocolates
+  idItem: 1001
+  itemCode: B
+  itemName: Chocolates
   quantity: 5
-  cost: 5.0
-
-
+  itemCost: 5.0
 
 
 
