@@ -6,12 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a8882bda-f1e8-478c-9ba1-264936a6b0ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/config/ItemConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/controller/ItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/model/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/com/example/WireMock/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/com/example/WireMock/controller/ItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/com/example/WireMock/model/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockAndSpockTest/target/classes/com/example/WireMock/model/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/application.2024-02-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WireMockAndSpockTest/src/main/java/com/example/WireMock/service/ItemService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

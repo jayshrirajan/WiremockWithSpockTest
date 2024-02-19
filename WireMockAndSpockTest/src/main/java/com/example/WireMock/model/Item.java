@@ -4,7 +4,8 @@ package com.example.WireMock.model;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 
-
+@Configuration
+@ConfigurationProperties(prefix = "item")
 public class Item {
 
     private int idItem;
@@ -14,13 +15,13 @@ public class Item {
     private double itemCost;
 
 
-    public Item(int idItem, String itemCode, String itemName, int quantity, double itemCost) {
-        this.idItem = idItem;
-        this.itemCode = itemCode;
-        this.itemName = itemName;
-        this.quantity = quantity;
-        this.itemCost = itemCost;
-    }
+//    public Item(int idItem, String itemCode, String itemName, int quantity, double itemCost) {
+//        this.idItem = idItem;
+//        this.itemCode = itemCode;
+//        this.itemName = itemName;
+//        this.quantity = quantity;
+//        this.itemCost = itemCost;
+//    }
 
     public int getIdItem() {
 
@@ -70,15 +71,15 @@ public class Item {
 
         this.itemCost = itemCost;
     }
-    @Override
-    public String toString() {
-        return "Item{" +
-                "idItem=" + idItem +
-                ", itemCode='" + itemCode + '\'' +
-                ", itemName='" + itemName + '\'' +
-                ", quantity=" + quantity +
-                ", itemCost=" + itemCost +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "Item{" +
+//                "idItem=" + idItem +
+//                ", itemCode='" + itemCode + '\'' +
+//                ", itemName='" + itemName + '\'' +
+//                ", quantity=" + quantity +
+//                ", itemCost=" + itemCost +
+//                '}';
+//    }
 
 }
