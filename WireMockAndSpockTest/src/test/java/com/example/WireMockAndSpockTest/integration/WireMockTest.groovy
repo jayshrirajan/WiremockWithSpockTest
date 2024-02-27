@@ -84,7 +84,8 @@ class WireMockTest extends Specification {
                         .withBody("{\"status\": \"success\"}")))
 
         when:
-        List<Item> itemList = [new Item(itemId, itemCode, itemName, itemQuantity, itemCost)]
+       // List<Item> itemList = [new Item(itemId, itemCode, itemName, itemQuantity, itemCost)]
+        List<Item> itemList = new ArrayList<>();
         ResponseEntity<String> responseEntity = restTemplateService.initializeItems(itemList)
 
         // Assert that the response body matches the expected value

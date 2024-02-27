@@ -1,0 +1,39 @@
+2024-02-20 10:24:02.307 [main] INFO  c.e.W.WireMockAndSpockTestApplication - Starting WireMockAndSpockTestApplication using Java 17.0.9 on CHE-JRAJAN-LT with PID 13796 (C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest\WireMockAndSpockTest\target\classes started by Jayasri.Rajan in C:\Users\jayasri.rajan\Downloads\WireMockAndSpockTest)
+2024-02-20 10:24:02.318 [main] INFO  c.e.W.WireMockAndSpockTestApplication - No active profile set, falling back to default profiles: default
+2024-02-20 10:24:03.977 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-02-20 10:24:03.990 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-02-20 10:24:03.991 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-20 10:24:03.991 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-02-20 10:24:04.099 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-20 10:24:04.100 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1693 ms
+2024-02-20 10:24:05.253 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-02-20 10:24:05.326 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-02-20 10:24:05.337 [main] INFO  c.e.W.WireMockAndSpockTestApplication - Started WireMockAndSpockTestApplication in 3.55 seconds (JVM running for 4.331)
+2024-02-20 10:24:05.338 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2024-02-20 10:24:05.341 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-02-20 10:24:05.342 [main] INFO  c.e.W.controller.LogController - An INFO Message
+2024-02-20 10:24:05.342 [main] WARN  c.e.W.controller.LogController - A WARN Message
+2024-02-20 10:24:05.343 [main] ERROR c.e.W.controller.LogController - An ERROR Message
+2024-02-20 10:24:24.649 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-20 10:24:24.650 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-20 10:24:24.651 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-20 10:24:25.715 [http-nio-8081-exec-2] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 572 ms
+2024-02-20 10:25:20.250 [http-nio-8081-exec-4] DEBUG o.s.web.client.RestTemplate - HTTP POST http://localhost:8080/vending-machine/add-change
+2024-02-20 10:25:20.260 [http-nio-8081-exec-4] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-20 10:25:20.262 [http-nio-8081-exec-4] DEBUG o.s.web.client.RestTemplate - Writing [{1.0=1, 2.0=1}] as "application/json"
+2024-02-20 10:25:20.296 [http-nio-8081-exec-4] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-20 10:25:20.299 [http-nio-8081-exec-4] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+2024-02-20 10:25:43.961 [http-nio-8081-exec-6] INFO  c.e.W.c.RestTemplateController - VendItem request received. Number of items: 1
+2024-02-20 10:25:43.963 [http-nio-8081-exec-6] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://localhost:8080/vending-machine/vend-items
+2024-02-20 10:25:43.964 [http-nio-8081-exec-6] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-20 10:25:43.969 [http-nio-8081-exec-6] DEBUG o.s.web.client.RestTemplate - Writing [[VendItemRequest{itemId=1, amount=0.5}]] as "application/json"
+2024-02-20 10:25:44.083 [http-nio-8081-exec-6] DEBUG o.s.web.client.RestTemplate - Response 400 BAD_REQUEST
+2024-02-20 10:25:44.091 [http-nio-8081-exec-6] ERROR c.e.W.c.RestTemplateController - Error while processing VendItem request. Status Code: 400, Response: {"error":"Insufficient Balance"}
+2024-02-20 10:26:28.142 [http-nio-8081-exec-7] INFO  c.e.W.c.RestTemplateController - VendItem request received. Number of items: 1
+2024-02-20 10:26:28.144 [http-nio-8081-exec-7] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://localhost:8080/vending-machine/vend-items
+2024-02-20 10:26:28.145 [http-nio-8081-exec-7] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-20 10:26:28.146 [http-nio-8081-exec-7] DEBUG o.s.web.client.RestTemplate - Writing [[VendItemRequest{itemId=1, amount=1.0}]] as "application/json"
+2024-02-20 10:26:28.251 [http-nio-8081-exec-7] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-20 10:26:28.252 [http-nio-8081-exec-7] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+2024-02-20 10:26:28.253 [http-nio-8081-exec-7] INFO  c.e.W.c.RestTemplateController - VendItem request successful. Response: Enjoy your Soda!!! Your Change: 0.0
+

@@ -19,8 +19,10 @@
     </appender>
 
     <!-- Loggers -->
-    <logger name="com.example.WireMock.exception" level="ERROR"/>
     <logger name="org.springframework.web.client.RestTemplate" level="DEBUG" />
+<!--    <logger name="com.example.WireMock.controller" level="ERROR"/>-->
+
+
 
     <!-- Set the default level for all loggers -->
     <root level="INFO">

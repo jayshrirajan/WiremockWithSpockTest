@@ -1,0 +1,92 @@
+2024-02-19 15:18:53.947 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1994ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-02-19 15:18:54.065 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 17.0.9+8-LTS
+2024-02-19 15:18:54.081 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2ca6546f{/__admin,null,AVAILABLE}
+2024-02-19 15:18:54.083 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@11a7ba62{/,null,AVAILABLE}
+2024-02-19 15:18:54.115 [main] INFO  o.e.jetty.server.AbstractConnector - Started NetworkTrafficServerConnector@433e536f{HTTP/1.1, (http/1.1)}{0.0.0.0:59477}
+2024-02-19 15:18:54.115 [main] INFO  org.eclipse.jetty.server.Server - Started @2165ms
+2024-02-19 15:22:40.808 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1581ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-02-19 15:22:40.909 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 17.0.9+8-LTS
+2024-02-19 15:22:40.928 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@34523d46{/__admin,null,AVAILABLE}
+2024-02-19 15:22:40.930 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4443ef6f{/,null,AVAILABLE}
+2024-02-19 15:22:40.956 [main] INFO  o.e.jetty.server.AbstractConnector - Started NetworkTrafficServerConnector@4cee7fa0{HTTP/1.1, (http/1.1)}{0.0.0.0:59650}
+2024-02-19 15:22:40.957 [main] INFO  org.eclipse.jetty.server.Server - Started @1731ms
+2024-02-19 15:22:41.232 [main] DEBUG o.s.web.client.RestTemplate - HTTP POST http://localhost:59650/rest/initialize
+2024-02-19 15:22:41.239 [main] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-19 15:22:41.247 [main] DEBUG o.s.web.client.RestTemplate - Writing [[]] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2024-02-19 15:22:41.383 [qtp185164978-24] INFO  o.e.j.s.handler.ContextHandler.ROOT - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2024-02-19 15:22:41.470 [main] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-19 15:22:41.472 [main] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+2024-02-19 15:23:26.296 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1659ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-02-19 15:23:26.393 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 17.0.9+8-LTS
+2024-02-19 15:23:26.412 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@78411116{/__admin,null,AVAILABLE}
+2024-02-19 15:23:26.414 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2d6aca33{/,null,AVAILABLE}
+2024-02-19 15:23:26.453 [main] INFO  o.e.jetty.server.AbstractConnector - Started NetworkTrafficServerConnector@6b04acb2{HTTP/1.1, (http/1.1)}{0.0.0.0:59688}
+2024-02-19 15:23:26.453 [main] INFO  org.eclipse.jetty.server.Server - Started @1818ms
+2024-02-19 15:23:26.793 [main] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:59688/rest/totalItem
+2024-02-19 15:23:26.797 [main] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-19 15:23:26.876 [qtp209360767-24] INFO  o.e.j.s.handler.ContextHandler.ROOT - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2024-02-19 15:23:26.973 [main] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-19 15:23:26.976 [main] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+2024-02-19 15:23:26.993 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 17.0.9+8-LTS
+2024-02-19 15:23:26.995 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@40e37b06{/__admin,null,AVAILABLE}
+2024-02-19 15:23:26.996 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@733aa9d8{/,null,AVAILABLE}
+2024-02-19 15:23:27.003 [main] INFO  o.e.jetty.server.AbstractConnector - Started NetworkTrafficServerConnector@5fcfde70{HTTP/1.1, (http/1.1)}{0.0.0.0:59690}
+2024-02-19 15:23:27.003 [main] INFO  org.eclipse.jetty.server.Server - Started @2368ms
+2024-02-19 15:23:27.007 [main] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:59690/rest/getItem
+2024-02-19 15:23:27.008 [main] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-19 15:23:27.010 [qtp1146318308-34] INFO  o.e.j.s.handler.ContextHandler.ROOT - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2024-02-19 15:23:27.015 [main] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-19 15:23:27.015 [main] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+2024-02-19 15:23:27.019 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 17.0.9+8-LTS
+2024-02-19 15:23:27.022 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@70972170{/__admin,null,AVAILABLE}
+2024-02-19 15:23:27.023 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@119aa36{/,null,AVAILABLE}
+2024-02-19 15:23:27.029 [main] INFO  o.e.jetty.server.AbstractConnector - Started NetworkTrafficServerConnector@27d33393{HTTP/1.1, (http/1.1)}{0.0.0.0:59692}
+2024-02-19 15:23:27.030 [main] INFO  org.eclipse.jetty.server.Server - Started @2395ms
+2024-02-19 15:23:27.040 [main] DEBUG o.s.web.client.RestTemplate - HTTP POST http://localhost:59692/rest/initialize
+2024-02-19 15:23:27.040 [main] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-19 15:23:27.046 [main] DEBUG o.s.web.client.RestTemplate - Writing [[]] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2024-02-19 15:23:27.051 [qtp910691117-43] INFO  o.e.j.s.handler.ContextHandler.ROOT - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2024-02-19 15:23:27.055 [main] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-19 15:23:27.056 [main] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+2024-02-19 15:23:27.060 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 17.0.9+8-LTS
+2024-02-19 15:23:27.062 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@424de326{/__admin,null,AVAILABLE}
+2024-02-19 15:23:27.062 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4bc33720{/,null,AVAILABLE}
+2024-02-19 15:23:27.068 [main] INFO  o.e.jetty.server.AbstractConnector - Started NetworkTrafficServerConnector@4b0f2299{HTTP/1.1, (http/1.1)}{0.0.0.0:59694}
+2024-02-19 15:23:27.068 [main] INFO  org.eclipse.jetty.server.Server - Started @2433ms
+2024-02-19 15:23:27.071 [main] DEBUG o.s.web.client.RestTemplate - HTTP POST http://localhost:59694/rest/add-change
+2024-02-19 15:23:27.071 [main] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-19 15:23:27.073 [main] DEBUG o.s.web.client.RestTemplate - Writing [{1.0=1, 2.0=1}] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2024-02-19 15:23:27.077 [qtp2114701475-52] INFO  o.e.j.s.handler.ContextHandler.ROOT - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2024-02-19 15:23:27.081 [main] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-19 15:23:27.081 [main] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+2024-02-19 15:23:27.085 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 17.0.9+8-LTS
+2024-02-19 15:23:27.087 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@348ad293{/__admin,null,AVAILABLE}
+2024-02-19 15:23:27.087 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@30f74e79{/,null,AVAILABLE}
+2024-02-19 15:23:27.092 [main] INFO  o.e.jetty.server.AbstractConnector - Started NetworkTrafficServerConnector@329bad59{HTTP/1.1, (http/1.1)}{0.0.0.0:59696}
+2024-02-19 15:23:27.092 [main] INFO  org.eclipse.jetty.server.Server - Started @2457ms
+2024-02-19 15:23:27.097 [main] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://localhost:59696/rest/vend-items
+2024-02-19 15:23:27.098 [main] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-19 15:23:27.102 [main] DEBUG o.s.web.client.RestTemplate - Writing [[VendItemRequest{itemId=1, amount=1.0}]] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2024-02-19 15:23:27.105 [qtp745604825-61] INFO  o.e.j.s.handler.ContextHandler.ROOT - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2024-02-19 15:23:27.109 [main] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2024-02-19 15:23:27.110 [main] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+2024-02-19 15:23:27.114 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 17.0.9+8-LTS
+2024-02-19 15:23:27.116 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4784efd9{/__admin,null,AVAILABLE}
+2024-02-19 15:23:27.116 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3fba233d{/,null,AVAILABLE}
+2024-02-19 15:23:27.121 [main] INFO  o.e.jetty.server.AbstractConnector - Started NetworkTrafficServerConnector@71926a36{HTTP/1.1, (http/1.1)}{0.0.0.0:59698}
+2024-02-19 15:23:27.121 [main] INFO  org.eclipse.jetty.server.Server - Started @2486ms
+2024-02-19 15:23:27.124 [main] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://localhost:59698/rest/vend-items
+2024-02-19 15:23:27.124 [main] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-19 15:23:27.124 [main] DEBUG o.s.web.client.RestTemplate - Writing [[VendItemRequest{itemId=1, amount=0.5}]] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2024-02-19 15:23:27.127 [qtp1263455953-70] INFO  o.e.j.s.handler.ContextHandler.ROOT - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2024-02-19 15:23:27.131 [main] DEBUG o.s.web.client.RestTemplate - Response 400 BAD_REQUEST
+2024-02-19 15:23:27.144 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 17.0.9+8-LTS
+2024-02-19 15:23:27.146 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@50f097b5{/__admin,null,AVAILABLE}
+2024-02-19 15:23:27.146 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7add838c{/,null,AVAILABLE}
+2024-02-19 15:23:27.150 [main] INFO  o.e.jetty.server.AbstractConnector - Started NetworkTrafficServerConnector@44b21f9f{HTTP/1.1, (http/1.1)}{0.0.0.0:59700}
+2024-02-19 15:23:27.150 [main] INFO  org.eclipse.jetty.server.Server - Started @2515ms
+2024-02-19 15:23:27.152 [main] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://localhost:59700/rest/vend-items
+2024-02-19 15:23:27.152 [main] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2024-02-19 15:23:27.152 [main] DEBUG o.s.web.client.RestTemplate - Writing [[VendItemRequest{itemId=10, amount=1.0}]] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2024-02-19 15:23:27.155 [qtp1579140143-79] INFO  o.e.j.s.handler.ContextHandler.ROOT - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2024-02-19 15:23:27.158 [main] DEBUG o.s.web.client.RestTemplate - Response 404 NOT_FOUND
